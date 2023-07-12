@@ -7,8 +7,12 @@ public class TestAgent {
         long preTime = System.currentTimeMillis();
         System.out.println("pre start time : " + preTime);
         AgentInitiallizer.init(agentOps, instrumentation);
+
+
+
         long endTime = System.currentTimeMillis();
         long costTime = endTime - preTime;
         System.out.println("pre end: " + endTime + " cost time :" + costTime);
+
     }
 }
